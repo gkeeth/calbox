@@ -1,0 +1,293 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74LS161 U?
+U 1 1 58C218A4
+P 5400 3700
+F 0 "U?" H 5450 3800 50  0000 C CNN
+F 1 "74LS161" H 5500 3500 50  0000 C CNN
+F 2 "" H 5400 3700 50  0000 C CNN
+F 3 "" H 5400 3700 50  0000 C CNN
+	1    5400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 58C218AB
+P 4100 3600
+F 0 "#PWR?" H 4100 3450 50  0001 C CNN
+F 1 "+3V3" H 4100 3740 50  0000 C CNN
+F 2 "" H 4100 3600 50  0000 C CNN
+F 3 "" H 4100 3600 50  0000 C CNN
+	1    4100 3600
+	1    0    0    -1  
+$EndComp
+Text Label 4700 4000 2    60   ~ 0
+20MHz_clock
+NoConn ~ 6100 3300
+NoConn ~ 6100 3400
+NoConn ~ 6100 3700
+$Comp
+L 74LS00 U?
+U 1 1 58C218B5
+P 6900 3300
+F 0 "U?" H 6900 3350 50  0000 C CNN
+F 1 "74LS00" H 6900 3200 50  0000 C CNN
+F 2 "" H 6900 3300 50  0000 C CNN
+F 3 "" H 6900 3300 50  0000 C CNN
+	1    6900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58C218BC
+P 4600 3500
+F 0 "#PWR?" H 4600 3250 50  0001 C CNN
+F 1 "GND" H 4600 3350 50  0000 C CNN
+F 2 "" H 4600 3500 50  0000 C CNN
+F 3 "" H 4600 3500 50  0000 C CNN
+	1    4600 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3300 7500 3300
+Wire Wire Line
+	7600 3000 7600 3300
+Wire Wire Line
+	4300 3000 7600 3000
+Wire Wire Line
+	4300 3700 4300 3000
+Wire Wire Line
+	4700 3700 4300 3700
+Connection ~ 4100 3900
+Wire Wire Line
+	4100 4200 4700 4200
+Connection ~ 4100 3800
+Wire Wire Line
+	4100 3900 4700 3900
+Wire Wire Line
+	4100 3800 4700 3800
+Wire Wire Line
+	4100 3600 4100 4200
+Connection ~ 4600 3200
+Wire Wire Line
+	4600 3500 4700 3500
+Connection ~ 4600 3400
+Wire Wire Line
+	4600 3400 4700 3400
+Connection ~ 4600 3300
+Wire Wire Line
+	4700 3300 4600 3300
+Connection ~ 4600 3500
+Wire Wire Line
+	4600 3200 4700 3200
+Wire Wire Line
+	4600 3200 4600 3500
+Wire Wire Line
+	6200 3400 6300 3400
+Wire Wire Line
+	6200 3500 6200 3400
+Wire Wire Line
+	6100 3500 6200 3500
+Wire Wire Line
+	6100 3200 6300 3200
+$Comp
+L C C?
+U 1 1 58C218F4
+P 3500 3850
+F 0 "C?" H 3525 3950 50  0000 L CNN
+F 1 "C" H 3525 3750 50  0000 L CNN
+F 2 "" H 3538 3700 50  0000 C CNN
+F 3 "" H 3500 3850 50  0000 C CNN
+	1    3500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 58C21945
+P 3500 3700
+F 0 "#PWR?" H 3500 3550 50  0001 C CNN
+F 1 "+3V3" H 3500 3840 50  0000 C CNN
+F 2 "" H 3500 3700 50  0000 C CNN
+F 3 "" H 3500 3700 50  0000 C CNN
+	1    3500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58C21962
+P 3500 4000
+F 0 "#PWR?" H 3500 3750 50  0001 C CNN
+F 1 "GND" H 3500 3850 50  0000 C CNN
+F 2 "" H 3500 4000 50  0000 C CNN
+F 3 "" H 3500 4000 50  0000 C CNN
+	1    3500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS161 U?
+U 1 1 58C21BDB
+P 5400 5200
+F 0 "U?" H 5450 5300 50  0000 C CNN
+F 1 "74LS161" H 5500 5000 50  0000 C CNN
+F 2 "" H 5400 5200 50  0000 C CNN
+F 3 "" H 5400 5200 50  0000 C CNN
+	1    5400 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 58C21BE2
+P 4100 5100
+F 0 "#PWR?" H 4100 4950 50  0001 C CNN
+F 1 "+3V3" H 4100 5240 50  0000 C CNN
+F 2 "" H 4100 5100 50  0000 C CNN
+F 3 "" H 4100 5100 50  0000 C CNN
+	1    4100 5100
+	1    0    0    -1  
+$EndComp
+Text Label 4700 5500 2    60   ~ 0
+20MHz_clock
+NoConn ~ 6100 4800
+NoConn ~ 6100 4900
+NoConn ~ 6100 5200
+$Comp
+L 74LS00 U?
+U 1 1 58C21BEC
+P 6900 4800
+F 0 "U?" H 6900 4850 50  0000 C CNN
+F 1 "74LS00" H 6900 4700 50  0000 C CNN
+F 2 "" H 6900 4800 50  0000 C CNN
+F 3 "" H 6900 4800 50  0000 C CNN
+	1    6900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58C21BF3
+P 4600 5000
+F 0 "#PWR?" H 4600 4750 50  0001 C CNN
+F 1 "GND" H 4600 4850 50  0000 C CNN
+F 2 "" H 4600 5000 50  0000 C CNN
+F 3 "" H 4600 5000 50  0000 C CNN
+	1    4600 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 4800 7500 4800
+Wire Wire Line
+	7600 4500 7600 4800
+Wire Wire Line
+	4300 4500 7600 4500
+Wire Wire Line
+	4300 5200 4300 4500
+Wire Wire Line
+	4700 5200 4300 5200
+Connection ~ 4100 5400
+Wire Wire Line
+	4100 5700 4700 5700
+Connection ~ 4100 5300
+Wire Wire Line
+	4100 5400 4700 5400
+Wire Wire Line
+	4100 5300 4700 5300
+Wire Wire Line
+	4100 5100 4100 5700
+Connection ~ 4600 4700
+Wire Wire Line
+	4600 5000 4700 5000
+Connection ~ 4600 4900
+Wire Wire Line
+	4600 4900 4700 4900
+Connection ~ 4600 4800
+Wire Wire Line
+	4700 4800 4600 4800
+Connection ~ 4600 5000
+Wire Wire Line
+	4600 4700 4700 4700
+Wire Wire Line
+	4600 4700 4600 5000
+Wire Wire Line
+	6200 4900 6300 4900
+Wire Wire Line
+	6200 5000 6200 4900
+Wire Wire Line
+	6100 5000 6200 5000
+Wire Wire Line
+	6100 4700 6300 4700
+$Comp
+L C C?
+U 1 1 58C21C11
+P 3500 5350
+F 0 "C?" H 3525 5450 50  0000 L CNN
+F 1 "C" H 3525 5250 50  0000 L CNN
+F 2 "" H 3538 5200 50  0000 C CNN
+F 3 "" H 3500 5350 50  0000 C CNN
+	1    3500 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 58C21C18
+P 3500 5200
+F 0 "#PWR?" H 3500 5050 50  0001 C CNN
+F 1 "+3V3" H 3500 5340 50  0000 C CNN
+F 2 "" H 3500 5200 50  0000 C CNN
+F 3 "" H 3500 5200 50  0000 C CNN
+	1    3500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58C21C1E
+P 3500 5500
+F 0 "#PWR?" H 3500 5250 50  0001 C CNN
+F 1 "GND" H 3500 5350 50  0000 C CNN
+F 2 "" H 3500 5500 50  0000 C CNN
+F 3 "" H 3500 5500 50  0000 C CNN
+	1    3500 5500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
