@@ -13,4 +13,9 @@
   (pad 3 thru_hole circle (at 0 -9.398) (size 3 3) (drill 1.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 -4.699) (size 3 3) (drill 1.8) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 1.8) (layers *.Cu *.Mask))
+  (model /Users/graham/projects/calbox/calbox.pretty/3d/M2012SS1W03.x3d
+    (at (xyz 0 0.185 0.4))
+    (scale (xyz 10 10 10))
+    (rotate (xyz -90 0 0))
+  )
 )
