@@ -1,5 +1,6 @@
 # Kicad backups
 *.bak
+*.bck
 *.kicad_pcb-bak
 
 # vim swap
