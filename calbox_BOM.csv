@@ -1,6 +1,6 @@
 Source,/Users/graham/projects/calbox/calbox.sch
 Kicad Rev,Eeschema 4.0.5
-Generated Date,Sunday, March 19, 2017 'PMt' 05:35:28 PM
+Generated Date,Sunday, March 19, 2017 'PMt' 10:40:55 PM
 
 Title,calbox
 Company,Not Set
@@ -46,7 +46,7 @@ R14,100,device,R
 R16,100,device,R
 R17,10,device,R
 R21,10,device,R
-SW3,PULSE/CONST,NKK,M2012SS1W03,Mouser,633-M201203,http://www.mouser.com/Search/ProductDetail.aspx?R=M2012SS1W03virtualkey63300000virtualkey633-M201203,2.86,switches,SW_SPDT
+SW3,SPDT,NKK,M2012SS1W03,Mouser,633-M201203,http://www.mouser.com/Search/ProductDetail.aspx?R=M2012SS1W03virtualkey63300000virtualkey633-M201203,2.86,switches,SW_SPDT
 RV1,2k,Bourns,3362P-1-202LF,Mouser,652-3362P-1-202LF,http://www.mouser.com/Search/ProductDetail.aspx?R=3362P-1-202LFvirtualkey65210000virtualkey652-3362P-1-202LF,1.02,device,POT_TRIM
 SW4,VOLTAGE SWITCH,NKK,MRK112-A,Mouser,633-MRK112A,http://www.mouser.com/Search/ProductDetail.aspx?R=MRK112-Avirtualkey63300000virtualkey633-MRK112A,11.80,switches,SW_Rotary12
 R9,3k,device,R
@@ -80,7 +80,7 @@ C13,100u,Nichicon,URS1E101MDD,Mouser,647-URS1E101MDD,http://www.mouser.com/Searc
 D1,LED_GR,Cree,C503B-GCN-CY0C0792,Mouser,941-C503BGCNCY0C0792,http://www.mouser.com/Search/ProductDetail.aspx?R=C503B-GCN-CY0C0792virtualkey57280000virtualkey941-C503BGCNCY0C0792,0.24,device,LED_ALT
 R27,5,device,R
 R26,470,device,R
-SW5,POWER SWITCH,NKK,M2021SS1W03,Mouser,633-M2021SS1W03,http://www.mouser.com/Search/ProductDetail.aspx?R=M2021SS1W03virtualkey63300000virtualkey633-M2021SS1W03,4.32,calbox,SW_DPST_NKK_M2021
+SW5,DPST,NKK,M2021SS1W03,Mouser,633-M2021SS1W03,http://www.mouser.com/Search/ProductDetail.aspx?R=M2021SS1W03virtualkey63300000virtualkey633-M2021SS1W03,4.32,calbox,SW_DPST_NKK_M2021
 U13,LM317,TI,LM317DCYR,Mouser,595-LM317DCYR,http://www.mouser.com/Search/ProductDetail.aspx?R=LM317DCYRvirtualkey59500000virtualkey595-LM317DCYR,0.74,calbox,LM317_SOT223_4pin
 TP5,12V,device,TEST
 TP6,3.3V,device,TEST

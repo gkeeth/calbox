@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/graham/projects/calbox/calbox.sch)
-    (date "Sunday, March 19, 2017 'PMt' 04:39:42 PM")
+    (date "Saturday, March 25, 2017 'PMt' 09:40:08 PM")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -167,7 +167,7 @@
       (sheetpath (names /clock_decade_division/) (tstamps /58C206F0/))
       (tstamp 58C740E4))
     (comp (ref SW1)
-      (value "FREQ SWITCH 1")
+      (value "ROTARY 7POS")
       (footprint calbox:SW_ROTARY_SP12T_MRK112)
       (datasheet http://www.mouser.com/ds/2/295/MRlogicLevel-9701.pdf)
       (fields
@@ -297,7 +297,7 @@
       (sheetpath (names /clock_final_division/) (tstamps /58C207DF/))
       (tstamp 58C77242))
     (comp (ref SW2)
-      (value "FREQ SWITCH 2")
+      (value "ROTARY 3POS")
       (footprint calbox:SW_ROTARY_SP12T_MRK112)
       (datasheet http://www.mouser.com/ds/2/295/MRlogicLevel-9701.pdf)
       (fields
@@ -419,7 +419,7 @@
       (sheetpath (names /voltage_output/) (tstamps /58C45499/))
       (tstamp 58C4594E))
     (comp (ref SW3)
-      (value PULSE/CONST)
+      (value SPDT)
       (footprint calbox:SW_SPDT_NKK_M201xxxx03)
       (datasheet http://www.mouser.com/ds/2/295/MtogglesBushing-31423.pdf)
       (fields
@@ -447,7 +447,7 @@
       (sheetpath (names /voltage_output/) (tstamps /58C45499/))
       (tstamp 58C5E2DE))
     (comp (ref SW4)
-      (value "VOLTAGE SWITCH")
+      (value "ROTARY 12POS")
       (footprint calbox:SW_ROTARY_SP12T_MRK112)
       (datasheet http://www.mouser.com/ds/2/295/MRlogicLevel-9701.pdf)
       (fields
@@ -523,7 +523,7 @@
       (sheetpath (names /voltage_output/) (tstamps /58C45499/))
       (tstamp 58C9DD95))
     (comp (ref TP1)
-      (value TEST)
+      (value 12V)
       (footprint Measurement_Points:Measurement_Point_Square-TH_Big)
       (libsource (lib device) (part TEST))
       (sheetpath (names /voltage_output/) (tstamps /58C45499/))
@@ -671,7 +671,7 @@
       (sheetpath (names /power/) (tstamps /58C4B0D5/))
       (tstamp 58C855B8))
     (comp (ref SW5)
-      (value "POWER SWITCH")
+      (value DPST)
       (footprint calbox:SW_NKK_M20xxxxx03_DPST)
       (datasheet http://www.mouser.com/ds/2/295/MtogglesBushing-31423.pdf)
       (fields
@@ -1030,14 +1030,14 @@
       (pins
         (pin (num 1) (name ~) (type passive)))))
   (libraries
-    (library (logical conn)
-      (uri "/Library/Application Support/kicad/library/conn.lib"))
-    (library (logical calbox)
-      (uri /Users/graham/projects/calbox/calbox.lib))
     (library (logical device)
       (uri "/Library/Application Support/kicad/library/device.lib"))
+    (library (logical conn)
+      (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical switches)
-      (uri "/Library/Application Support/kicad/library/switches.lib")))
+      (uri "/Library/Application Support/kicad/library/switches.lib"))
+    (library (logical calbox)
+      (uri /Users/graham/projects/calbox/calbox.lib)))
   (nets
     (net (code 1) (name VCC)
       (node (ref U6) (pin 1))

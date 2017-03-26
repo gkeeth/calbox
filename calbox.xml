@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/graham/projects/calbox/calbox.sch</source>
-    <date>Sunday, March 19, 2017 'PMt' 05:35:28 PM</date>
+    <date>Sunday, March 19, 2017 'PMt' 10:40:55 PM</date>
     <tool>Eeschema 4.0.5</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -486,7 +486,7 @@
       <tstamp>58C4594E</tstamp>
     </comp>
     <comp ref="SW3">
-      <value>PULSE/CONST</value>
+      <value>SPDT</value>
       <footprint>calbox:SW_SPDT_NKK_M201xxxx03</footprint>
       <datasheet>http://www.mouser.com/ds/2/295/MtogglesBushing-31423.pdf</datasheet>
       <fields>
@@ -778,7 +778,7 @@
       <tstamp>58C855B8</tstamp>
     </comp>
     <comp ref="SW5">
-      <value>POWER SWITCH</value>
+      <value>DPST</value>
       <footprint>calbox:SW_NKK_M20xxxxx03_DPST</footprint>
       <datasheet>http://www.mouser.com/ds/2/295/MtogglesBushing-31423.pdf</datasheet>
       <fields>
