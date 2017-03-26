@@ -1,0 +1,7 @@
+PCB to lid: 0.4" (defined by rotary switches)
+
+box depth: 1.5"
+
+top of box to bottom of pcb: 0.6" (defined by rotary switches)
+
+room for jacks: 0.9"
