@@ -1,4 +1,4 @@
-update=Tuesday, March 14, 2017 'AMt' 11:41:51 AM
+update=Saturday, April 15, 2017 'PMt' 10:39:09 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,13 @@ LibName32=calbox
 LibName33=Oscillators
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
