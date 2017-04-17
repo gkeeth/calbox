@@ -357,7 +357,7 @@ L R R1
 U 1 1 58C7B2C7
 P 2150 2000
 F 0 "R1" V 2230 2000 50  0000 C CNN
-F 1 "470" V 2150 2000 50  0000 C CNN
+F 1 "1k" V 2150 2000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2080 2000 50  0001 C CNN
 F 3 "" H 2150 2000 50  0000 C CNN
 	1    2150 2000
@@ -655,6 +655,25 @@ F 3 "" H 1400 1900 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1400 2100 1500 2100
-Text Notes 750  2450 0    60   Italic 12
-change to 1k with 100p speedup cap
+$Comp
+L C C22
+U 1 1 58F41F68
+P 2150 2250
+F 0 "C22" H 2175 2350 50  0000 L CNN
+F 1 "100p" H 2175 2150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2188 2100 50  0001 C CNN
+F 3 "" H 2150 2250 50  0000 C CNN
+	1    2150 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 2000 1950 2250
+Wire Wire Line
+	1950 2250 2000 2250
+Connection ~ 1950 2000
+Wire Wire Line
+	2300 2250 2350 2250
+Wire Wire Line
+	2350 2250 2350 2000
+Connection ~ 2350 2000
 $EndSCHEMATC
