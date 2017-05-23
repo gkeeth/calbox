@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.6096)
+    (last_trace_width 0.254)
     (user_trace_width 0.3048)
     (user_trace_width 0.3556)
     (user_trace_width 0.4064)
@@ -70,11 +70,11 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFEFFFF)
     (pcbplotparams
-      (layerselection 0x29fe0_80000001)
+      (layerselection 0x010e0_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
-      (plotframeref true)
+      (plotframeref false)
       (viasonmask false)
       (mode 1)
       (useauxorigin false)
@@ -89,11 +89,11 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 4)
+      (outputformat 1)
       (mirror false)
-      (drillshape 2)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory fab/pdf))
+      (outputdirectory fab/gerber))
   )
 
   (net 0 "")
