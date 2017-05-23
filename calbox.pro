@@ -1,4 +1,4 @@
-update=Saturday, April 15, 2017 'PMt' 10:39:09 PM
+update=Monday, May 22, 2017 'PMt' 09:20:19 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,10 +65,10 @@ version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=doc/schem/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60

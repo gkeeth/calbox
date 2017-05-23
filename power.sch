@@ -39,8 +39,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title "calbox power supply"
-Date ""
-Rev ""
+Date "2017-05-22"
+Rev "1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -53,7 +53,7 @@ U 1 1 58C4B132
 P 1000 1900
 F 0 "BT1" H 1100 2000 50  0000 L CNN
 F 1 "9V_BATT" H 1100 1900 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" V 1000 1960 50  0001 C CNN
+F 2 "calbox:battery_snap" V 1000 1960 50  0001 C CNN
 F 3 "" V 1000 1960 50  0000 C CNN
 	1    1000 1900
 	1    0    0    -1  
@@ -64,7 +64,7 @@ U 1 1 58C4B191
 P 1000 2400
 F 0 "BT2" H 1100 2500 50  0000 L CNN
 F 1 "9V_BATT" H 1100 2400 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" V 1000 2460 50  0001 C CNN
+F 2 "calbox:battery_snap" V 1000 2460 50  0001 C CNN
 F 3 "" V 1000 2460 50  0000 C CNN
 	1    1000 2400
 	1    0    0    -1  

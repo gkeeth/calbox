@@ -39,8 +39,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
 Title "calbox voltage output"
-Date ""
-Rev ""
+Date "2017-05-22"
+Rev "1"
 Comp ""
 Comment1 ""
 Comment2 ""
