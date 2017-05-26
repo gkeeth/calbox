@@ -1,0 +1,51 @@
+Source,/Users/graham/projects/calbox/calbox.sch
+Kicad Rev,Eeschema 4.0.5
+Generated Date,Wednesday, May 24, 2017 'PMt' 08:17:47 PM
+
+Title,calbox
+Company,Not Set
+Revision,1
+Date Issue,2017-05-22
+
+Quantity,Reference,Value,Manufacturer,Manufacturer PN,Distributor,Distributor PN,URL,Unit Price,Library,Library Ref
+1,C19,0.01u,device,C,,,,,,
+1,X1,20MHz,ABRACON,ACHL-20.000MHZ-EK,Mouser,815-ACHL-20-EK,http://www.mouser.com/Search/ProductDetail.aspx?R=ACHL-20.000MHZ-EKvirtualkey52750000virtualkey815-ACHL-20-EK,1.76,calbox,ACHL_XO
+13,C1 C2 C4 C3 C5 C6 C7 C8 C10 C9 C11 C21 C12,0.1u,device,C,,,,,,
+2,U5 U8,74LVC00,TI,SN74LVC00ADR,Mouser,595-SN74LVC00ADR,http://www.mouser.com/Search/ProductDetail.aspx?R=SN74LVC00ADRvirtualkey59500000virtualkey595-SN74LVC00ADR,0.40,calbox,74LVC00
+7,U1 U2 U3 U4 U6 U7 U10,74LVC161,Nexperia,4LVC161D118,Mouser,771-LVC161D118,http://www.mouser.com/Search/ProductDetail.aspx?R=74LVC161D%2c118virtualkey66800000virtualkey771-LVC161D118,0.61,calbox,74LVC161
+1,SW1,ROTARY 7POS,NKK,MRK112-A,Mouser,633-MRK112A,http://www.mouser.com/Search/ProductDetail.aspx?R=MRK112-Avirtualkey63300000virtualkey633-MRK112A,11.80,switches,SW_Rotary12
+2,U9 U11,74LVC74,TI,SN74LVC74ADR,Mouser,595-SN74LVC74ADR,http://www.mouser.com/Search/ProductDetail.aspx?R=SN74LVC74ADRvirtualkey59500000virtualkey595-SN74LVC74ADR,0.40,calbox,74LVC74
+1,SW2,ROTARY 3POS,NKK,MRK112-A,Mouser,633-MRK112A,http://www.mouser.com/Search/ProductDetail.aspx?R=MRK112-Avirtualkey63300000virtualkey633-MRK112A,11.80,switches,SW_Rotary12
+1,U15,74LVC1G04,74xgxx,74LVC1G04,,,,,,
+1,P1,BNC,conn,BNC,,,,,,
+1,U12,74LVC14,TI,SN74LVC14ADR,Mouser,595-SN74LVC14ADR,http://www.mouser.com/Search/ProductDetail.aspx?R=SN74LVC14ADRvirtualkey59500000virtualkey595-SN74LVC14ADR,0.40,calbox,74LVC14
+1,P2,BAN+,conn,CONN_01X01,,,,,,
+1,P3,BAN-,conn,CONN_01X01,,,,,,
+6,R10 R12 R2 R1 R11 R23,1k,device,R,,,,,,
+1,R13,300,device,R,,,,,,
+3,R14 R16 R15,100,device,R,,,,,,
+5,R17 R21 R18 R19 R20,10,device,R,,,,,,
+1,SW3,SPDT,NKK,M2012SS1W03,Mouser,633-M201203,http://www.mouser.com/Search/ProductDetail.aspx?R=M2012SS1W03virtualkey63300000virtualkey633-M201203,2.86,switches,SW_SPDT
+1,RV1,2k,Bourns,3362P-1-202LF,Mouser,652-3362P-1-202LF,http://www.mouser.com/Search/ProductDetail.aspx?R=3362P-1-202LFvirtualkey65210000virtualkey652-3362P-1-202LF,1.02,device,POT_TRIM
+1,SW4,ROTARY 12POS,NKK,MRK112-A,Mouser,633-MRK112A,http://www.mouser.com/Search/ProductDetail.aspx?R=MRK112-Avirtualkey63300000virtualkey633-MRK112A,11.80,switches,SW_Rotary12
+1,R9,3k,device,R,,,,,,
+3,R8 R6 R7,10k,device,R,,,,,,
+2,R4 R3,100k,device,R,,,,,,
+1,R5,30k,device,R,,,,,,
+1,Q1,MMBT2369,ON Semiconductor,MMBT2369ALT1G,Mouser,863-MMBT2369ALT1G,http://www.mouser.com/Search/ProductDetail.aspx?R=MMBT2369ALT1Gvirtualkey58410000virtualkey863-MMBT2369ALT1G,0.19,device,Q_NPN_BEC
+1,C20,6.8u,device,C,,,,,,
+2,TP1 TP5,12V,device,TEST,,,,,,
+1,C22,100p,device,C,,,,,,
+2,BT1 BT2,9V_BATT,device,Battery_Cell,,,,,,
+2,R24 R22,120,device,R,,,,,,
+1,R25,196,device,R,,,,,,
+2,C16 C15,0.1u,device,C_Small,,,,,,
+2,C18 C17,6.8u,device,C_Small,,,,,,
+2,C13 C14,100u,Nichicon,URS1E101MDD,Mouser,647-URS1E101MDD,http://www.mouser.com/Search/ProductDetail.aspx?R=URS1E101MDDvirtualkey64700000virtualkey647-URS1E101MDD,0.34,device,CP1
+2,D1 D2,LED_GR,Cree,C503B-GCN-CY0C0792,Mouser,941-C503BGCNCY0C0792,http://www.mouser.com/Search/ProductDetail.aspx?R=C503B-GCN-CY0C0792virtualkey57280000virtualkey941-C503BGCNCY0C0792,0.24,device,LED_ALT
+1,R27,5.1,device,R,,,,,,
+1,R26,470,device,R,,,,,,
+1,SW5,DPST,NKK,M2021SS1W03,Mouser,633-M2021SS1W03,http://www.mouser.com/Search/ProductDetail.aspx?R=M2021SS1W03virtualkey63300000virtualkey633-M2021SS1W03,4.32,calbox,SW_DPST_NKK_M2021
+2,U13 U14,LM317,TI,LM317DCYR,Mouser,595-LM317DCYR,http://www.mouser.com/Search/ProductDetail.aspx?R=LM317DCYRvirtualkey59500000virtualkey595-LM317DCYR,0.74,calbox,LM317_SOT223_4pin
+1,TP6,3.3V,device,TEST,,,,,,
+1,TP4,GND,device,TEST,,,,,,
